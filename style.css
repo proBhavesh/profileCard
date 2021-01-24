@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*body styles*/
+body {
+	background-image: linear-gradient(
+		45deg,
+		hsl(185, 75%, 39%),
+		hsl(229, 23%, 23%)
+	);
+	font-size: 62.5%;
+
+	height: 100vh;
+	font-family: "Kumbh Sans", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*card style*/
+.man {
+	background-color: white;
+	width: 27rem;
+	height: 27rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*man image style*/
+.man-image {
+	border-radius: 5rem;
+	width: 6rem;
+	height: auto;
+}
+
+/*man-stats*/
+.swag {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	bottom: 2rem;
+}
+
+/*stats-individual styling*/
+.allin {
+	display: flex;
+	align-items: space-between;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*man name and location*/
+.man-prop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	bottom: 7rem;
+}
+
+/*man image*/
+.dp-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+/*complete card*/
+.all {
+	font-size: 1.2rem;
+}
+
+/*likes, followers, posts name*/
+.wt {
+	font-size: 0.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*likes, followers, posts numbers*/
+
+.followers-num,
+.likes-num,
+.posts-num {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3rem;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
+.circles {
+}
+
+.bg-bottom {
+	background-image: url(simg.png);
+}
